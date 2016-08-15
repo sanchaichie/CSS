@@ -1,0 +1,154 @@
+body{
+	background-image: url("Vintage-mainbg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+	background-size:cover;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* F o n t s*/
+@font-face {
+    font-family:MotionPicture;
+    src: url(MotionPicture.ttf);
+	font-weight: bold; 
+}
+@font-face {
+    font-family:MRF-Lemonberry-Sans;
+    src: url(MRF-Lemonberry-Sans.otf);
+	font-weight: bold; 
+}
+
+Header{
+	font-family:MotionPicture ; 
+	font-size: 700%; 
+	font-weight: bold; 
+	letter-spacing: -1px;
+	line-height: 1;
+	text-align: center;
+	margin-top:5px;
+	padding:5px 30px 0px 30px;
+	letter-spacing:6px;
+	color:#F20075 ;
+	
+}
+.Subheader{
+
+	font-family:MotionPicture;
+	font-weight: 300;
+	line-height: 10px;
+	margin: 0 0 5px; 
+	text-align: center;
+	letter-spacing:5px;
+	font-size:130%;
+	color:#B6212D;
+}
+p {
+	font-size: 120%;
+	padding: 50px 25px 25px 25px;;
+	margin: 0;
+	height:auto;
+	margin-top: 20px;
+	text-align: justify;
+	font-family:MRF-Lemonberry-Sans;
+	text-indent: 30px;
+}
+.Title{
+	position:absolute;
+	float:right;
+	top:15px;
+	line-height:1px;
+	right:30px;
+	font-family:MotionPicture;
+	letter-spacing:5px;
+	padding:2px 8px 2px 8px;
+	border:	1px solid black;
+	border-radius: 10px;
+	color:#B6212D;
+}
+
+.container{
+	margin-top:10px;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-left:auto;
+	padding:10px;
+	position: relative;
+}
+.block{
+	border:	2px solid black;
+	position: relative;
+	border-radius: 25px;
+}
+
+.France{
+	background-image: url("background.jpg");
+	background-size:cover;
+}
+
+.London{
+	background-image: url("background.jpg");
+	background-size:cover;
+
+}
+.Japan{
+	background-image: url("background.jpg");
+	background-size:cover;
+	
+}
+footer{
+	font-family:MotionPicture;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing:2px;
+	color:#B6212D;
+}
+
+/* D e s k t o p  V i e w */
+@media (min-width:992px)
+{	
+	.col-lg-4{ width:33.33%; }
+	.col-lg-4 { float:left; }
+}
+
+
+/* T a b l e t  V i e w */
+@media(min-width:768px) and (max-width:991px)
+{
+	.col-md-6{ width:50%; }
+	.col-md-12{ width:100%; }
+	.col-md-6, .col-md-12 { float:left;}
+	
+	 header{ font-size:600%;}
+	
+	.Subheader{
+	font-size:120%;
+	letter-spacing:3px;
+	line-height: 1;
+	}
+	p{ font-size:120%;}
+
+	
+}
+
+/* M o b i l e  V i e w */
+@media(max-width:767px)
+{
+	.col-sm-12 { float: left; }
+	.col-sm-12 { width: 100%; }
+	
+	header{ font-size:450%; }
+  
+  .Subheader{
+	font-size:100%;
+	line-height: 1;
+	letter-spacing:3px;
+  }
+ 
+  p{ font-size:110%; }
+
+}
+
